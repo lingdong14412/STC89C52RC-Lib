@@ -37,7 +37,7 @@ void Timer0_Isr(void) interrupt 1
     }
 }
 
-void timer0_init(void)
+void timer_init(void)
 {
 
     TMOD &= 0xF0;
